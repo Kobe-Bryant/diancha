@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96D090EC-640C-4E13-848B-D7556018022D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>diancha</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6DB7F4A-F3B0-4A73-B002-7E4E97766A75</key>
+		<string>svn://192.168.1.200/crm/trunk/mobile/iOS/diancha</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>diancha.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6DB7F4A-F3B0-4A73-B002-7E4E97766A75</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>F6DB7F4A-F3B0-4A73-B002-7E4E97766A75</key>
+		<string>svn://192.168.1.200/crm</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://192.168.1.200/crm/trunk/mobile/iOS/diancha/diancha.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6DB7F4A-F3B0-4A73-B002-7E4E97766A75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6DB7F4A-F3B0-4A73-B002-7E4E97766A75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>diancha</string>
+		</dict>
+	</array>
+</dict>
+</plist>

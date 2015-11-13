@@ -1,0 +1,71 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES : NO)
+
+#define dayiColor [UIColor colorWithRed:225.0f/255.0f green:48.0f/255.0f blue:35.0f/255.0f alpha:1.0f]
+
+#define DEVICETYPE @"4"
+
+#define BASE_URL @"http://weixin.meetrend.com/crm/"
+//#define BASE_URL @"http://meetrend.f3322.org:88/dayi/"
+//#define BASE_URL @"http://192.168.1.200:9090/dayi/"
+//#define BASE_URL @"http://192.168.1.106:8085/dayi/" //李立本地服务器
+
+//登录
+#define LOGIN_URL @"api/Ecp.OnlineUser.apiLogin"
+
+//退出
+#define LOGOUT_URL @"api/Ecp.OnlineUser.apiLogout"
+
+//包间列表
+#define ROOM_LIST_URL @"api/Crm.Room.allRroom"
+
+//包间详情
+#define ROOM_DETAIL_URL @"api/Crm.Room.getRoomDetailById"
+
+//推荐列表
+#define RECOMMEND_TEA_URL @"api/Crm.Inventory.recommendTea"
+
+//产品套餐列表
+#define OPTIONAL_PLAY_URL @"api/Crm.Inventory.optionalPlay"
+
+//各种茶列表
+#define INVENTORY_LIST_URL @"api/Crm.Inventory.getInventoryByCatalogId"
+
+//搜索
+#define SEARCH_PRODUCT_URL @"api/Crm.Inventory.searchProduct"
+
+//未结算账单
+#define NOT_SETTLED_URL @"api/Crm.Order.notSettledOrder"
+
+//产品详情
+#define PRODUCT_DETAIL_URL @"api/Crm.Product.productInformation"
+
+//下单
+#define TAKE_ORDER_URL @"api/Crm.Order.takeOrderTea"
+
+//年份列表
+#define YEAR_LIST_URL @"api/Crm.Inventory.yearInformation"
+
+//茶单列表
+#define TEA_MENU_URL @"api/Crm.Order.myTeaMenu"
+
+//更多批次
+#define MORE_PICI_URL @"api/Crm.Inventory.storeMorePici"
+
+
+#endif
